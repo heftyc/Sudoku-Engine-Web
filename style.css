@@ -1,3 +1,39 @@
-a{
-    
+#myCanvas{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+.button{
+    font: 30px Arial;
+    border-radius:1.8em;
+    border-width: 5px;
+    height: 50%;
+}
+
+#solveButton{
+    border-color: lightgreen;
+    background-color:springgreen;
+    width: 40%;
+}
+
+#resetButton{
+    border-color: #ee9090;
+    background-color: #ff007f;
+    width: 25%;
+}
+
+#sampleButton{
+    border-color: #9090ee;
+    background-color: #7f00ff;
+    width: 25%;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    height: 50%;
 }

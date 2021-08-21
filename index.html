@@ -4,13 +4,14 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <canvas id="myCanvas" style="margin: auto; width: 99%;">
+            <canvas id="myCanvas" style="margin: auto;">
 
-        </canvas>
+            </canvas>
+        <div id="buttons">
+            <button id="resetButton" onclick="reset()">Reset</button>
+            <button id="solveButton" onclick="solve()">Solve</button>
+            <button id="sampleButton"onClick="nextSample()">Sample</button>
+        </div> 
     </body>
-    
-    <button id="solveButton" onclick="solve()">Solve</button>
-
-    </button>
     <script src="script.js"></script>
 </html>
